@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%" role="img" aria-label="A glowing purple and crimson magical portal illustration set against a starry dark background, representing the Enchanted Realm Finds brand">
+  <defs>
+    <radialGradient id="portalGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#c9a66b" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#7c3aed" stop-opacity="0.85"/>
+      <stop offset="65%" stop-color="#4c1d95" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0b0716" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e9defc"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#c0304a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="none"/>
+  <circle cx="450" cy="300" r="230" fill="url(#portalGlow)"/>
+  <circle cx="450" cy="300" r="170" fill="none" stroke="url(#ringStroke)" stroke-width="2" opacity="0.8"/>
+  <circle cx="450" cy="300" r="140" fill="none" stroke="url(#ringStroke)" stroke-width="1" opacity="0.5"/>
+  <circle cx="450" cy="300" r="200" fill="none" stroke="url(#ringStroke)" stroke-width="1" opacity="0.35"/>
+  <g opacity="0.9">
+    <circle cx="120" cy="90" r="2" fill="#e9defc"/>
+    <circle cx="780" cy="140" r="1.6" fill="#e9defc"/>
+    <circle cx="200" cy="500" r="1.8" fill="#e9defc"/>
+    <circle cx="700" cy="480" r="2.2" fill="#e9defc"/>
+    <circle cx="90" cy="320" r="1.4" fill="#e9defc"/>
+    <circle cx="820" cy="340" r="1.8" fill="#e9defc"/>
+    <circle cx="300" cy="60" r="1.4" fill="#e9defc"/>
+    <circle cx="600" cy="70" r="1.6" fill="#e9defc"/>
+  </g>
+</svg>
